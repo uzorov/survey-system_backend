@@ -58,8 +58,7 @@
               "RelativeToolTip": "Survey.Api\\Repositories\\AnalysisResultRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAABwAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T09:57:00.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T09:57:00.636Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "Survey.Api\\Controllers\\AnalysisResultController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T09:47:54.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T09:47:54.377Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "EntityFramework\\Migrations\\20250722092003_AnalysisResultText.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T09:20:03.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T09:20:03.585Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "Survey.ServiceDefaults\\Models\\AnalysisResultModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T09:11:35.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T09:11:35.568Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "Survey.Api\\Services\\AiAgentService.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAASwDAAAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T07:55:43.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T07:55:43.019Z"
             },
             {
               "$type": "Document",
@@ -123,8 +118,7 @@
               "RelativeToolTip": "Survey.ServiceDefaults\\Constants\\Addresses.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T07:56:09.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T07:56:09.046Z"
             },
             {
               "$type": "Document",
@@ -136,8 +130,7 @@
               "RelativeToolTip": "Survey.Api\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T07:53:01.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T07:53:01.043Z"
             },
             {
               "$type": "Document",
@@ -162,8 +155,7 @@
               "RelativeToolTip": "Survey.Api\\Services\\IAiAgentService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T10:05:02.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T10:05:02.808Z"
             }
           ]
         }

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survey.Api", "Survey.Api\Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survey.ServiceDefaults", "Survey.ServiceDefaults\Survey.ServiceDefaults.csproj", "{98B0FEE2-9219-5DF1-924C-D0E342EC1CBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survey.EntityFramework", "EntityFramework\Survey.EntityFramework.csproj", "{540FF48A-E8A9-4A22-8193-C3EC236B3E2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survey.EntityFramework", "Survey.EntityFramework\Survey.EntityFramework.csproj", "{540FF48A-E8A9-4A22-8193-C3EC236B3E2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Survey.EntityFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad5e59cd163e2a986c653aac1163ac99099894ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5d2ec4955d6f45277b60070a730c80b2cd89243")]
 [assembly: System.Reflection.AssemblyProductAttribute("Survey.EntityFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Survey.EntityFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
