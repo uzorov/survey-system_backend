@@ -7,6 +7,7 @@
 namespace Survey.ServiceDefaults.Models;
 
 using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 /// <summary>
 ///     Класс модели результата анализа
@@ -21,32 +22,51 @@ public class AnalysisResultModel
     /// <summary>
     ///     Тип трубы
     /// </summary>
-    public string PipeType { get; set; }
+    [Column("type_of_pipe")]
+    public string TypeOfPipe { get; set; }
+
+    /// <summary>
+    ///     Тип трубы
+    /// </summary>
+    [Column("diameter_of_pipe")]
+    public string DiameterOfPipe { get; set; }
+
+    /// <summary>
+    ///     Тип трубы
+    /// </summary>
+    [Column("pipe_wall_thickness")]
+    public string PipeWallThickness { get; set; }
 
     /// <summary>
     ///     Объем в тоннах
     /// </summary>
-    public string Tons { get; set; }
-
-    /// <summary>
-    ///     Регион
-    /// </summary>
-    public string Region { get; set; }
+    [Column("volume_tons")]
+    public string VolumeTons { get; set; }
 
     /// <summary>
     ///     Срок
     /// </summary>
-    public DateTime Deadline { get; set; }
+    [Column("timeline")]
+    public string Timeline { get; set; }
 
     /// <summary>
     ///     Уровень интереса
     /// </summary>
+    [Column("interest_level")]
     public string InterestLevel { get; set; }
+
+    [Column("text")]
+    public string Text { get; set; }
 
     /// <summary>
     ///     Исходный запрос
     /// </summary>
     public QueryModel Query { get; set; }
+
+    /// <summary>
+    ///     Исходный запрос
+    /// </summary>
+    public ContactModel Contact { get; set; }
 
     /// <summary>
     ///     Время анализа

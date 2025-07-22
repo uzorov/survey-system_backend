@@ -20,5 +20,7 @@ namespace Survey.ServiceDefaults.Models
         ///     Текст вопроса анкеты
         /// </summary>
         public string Question { get; set; }
+
+        public bool IsAllowOtherAnswer { get; set; }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FIREWORKS\\Desktop\\Survey\\Survey.ServiceDefaults\\Survey.ServiceDefaults.csproj": {}
+    "C:\\Users\\FIREWORKS\\Desktop\\mnpk_2025\\Survey\\Survey.ServiceDefaults\\Survey.ServiceDefaults.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FIREWORKS\\Desktop\\Survey\\Survey.ServiceDefaults\\Survey.ServiceDefaults.csproj": {
+    "C:\\Users\\FIREWORKS\\Desktop\\mnpk_2025\\Survey\\Survey.ServiceDefaults\\Survey.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FIREWORKS\\Desktop\\Survey\\Survey.ServiceDefaults\\Survey.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\FIREWORKS\\Desktop\\mnpk_2025\\Survey\\Survey.ServiceDefaults\\Survey.ServiceDefaults.csproj",
         "projectName": "Survey.ServiceDefaults",
-        "projectPath": "C:\\Users\\FIREWORKS\\Desktop\\Survey\\Survey.ServiceDefaults\\Survey.ServiceDefaults.csproj",
+        "projectPath": "C:\\Users\\FIREWORKS\\Desktop\\mnpk_2025\\Survey\\Survey.ServiceDefaults\\Survey.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\FIREWORKS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FIREWORKS\\Desktop\\Survey\\Survey.ServiceDefaults\\obj\\",
+        "outputPath": "C:\\Users\\FIREWORKS\\Desktop\\mnpk_2025\\Survey\\Survey.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

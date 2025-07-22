@@ -19,9 +19,4 @@
     <PackageReference Include="OpenTelemetry.Instrumentation.Runtime" Version="1.11.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Environments\" />
-    <Folder Include="Constants\" />
-  </ItemGroup>
-
 </Project>

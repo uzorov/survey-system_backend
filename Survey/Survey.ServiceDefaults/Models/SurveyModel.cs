@@ -11,6 +11,8 @@ namespace Survey.ServiceDefaults.Models;
 /// </summary>
 public class SurveyModel
 {
+    public int Id { get; set; }
+
     /// <summary>
     ///     Вопрос опроса
     /// </summary>

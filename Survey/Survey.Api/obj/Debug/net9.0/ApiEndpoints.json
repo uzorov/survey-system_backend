@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "Survey.Api.Controllers.AnalysisResultController",
+    "Method": "GetAnalysisResults",
+    "RelativePath": "api/analysis",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Survey.Api.Controllers.SurveyController",
+    "Method": "GetSurveys",
+    "RelativePath": "api/survey",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Survey.Api.Controllers.SurveyController",
+    "Method": "PostFreeForm",
+    "RelativePath": "api/survey/freeform",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEventContent",
+        "Type": "System.Text.Json.JsonElement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Survey.Api.Controllers.SurveyController",
+    "Method": "SubmitSurvey",
+    "RelativePath": "api/survey/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonContent",
+        "Type": "System.Text.Json.JsonElement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

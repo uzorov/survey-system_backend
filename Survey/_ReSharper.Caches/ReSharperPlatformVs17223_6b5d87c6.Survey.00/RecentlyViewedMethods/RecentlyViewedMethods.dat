@@ -1,10 +1,30 @@
 ﻿<RecentlyViewedMethods>
   <RecentlyViewedMethods>
-    <RecentMethod id="540ff48a-e8a9-4a22-8193-c3ec236b3e2c%28EntityFramework%29-88D23508%5Bnet9.0%5D/P%3ASurvey.EntityFramework.Contexts.ApplicationContext.Users" />
-    <RecentMethod id="540ff48a-e8a9-4a22-8193-c3ec236b3e2c%28EntityFramework%29-88D23508%5Bnet9.0%5D/P%3ASurvey.EntityFramework.Contexts.ApplicationContext.Queries" />
-    <RecentMethod id="540ff48a-e8a9-4a22-8193-c3ec236b3e2c%28EntityFramework%29-88D23508%5Bnet9.0%5D/P%3ASurvey.EntityFramework.Contexts.ApplicationContext.AnswerVariants" />
-    <RecentMethod id="540ff48a-e8a9-4a22-8193-c3ec236b3e2c%28EntityFramework%29-88D23508%5Bnet9.0%5D/P%3ASurvey.EntityFramework.Contexts.ApplicationContext.AnswerVariants" />
-    <RecentMethod id="540ff48a-e8a9-4a22-8193-c3ec236b3e2c%28EntityFramework%29-88D23508%5Bnet9.0%5D/M%3ASurvey.EntityFramework.Contexts.ApplicationContext.%23ctor" />
-    <RecentMethod id="540ff48a-e8a9-4a22-8193-c3ec236b3e2c%28EntityFramework%29-88D23508%5Bnet9.0%5D/M%3ASurvey.EntityFramework.Contexts.ApplicationContext.OnConfiguring%28Microsoft.EntityFrameworkCore.DbContextOptionsBuilder%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Services.AiAgentService.AnalyzeSurvey%28System.String%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/F%3ASurvey.Api.Controllers.AnalysisResultController.jsonSerializer" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Repositories.AnalysisResultRepository.GetAll" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/F%3ASurvey.Api.Controllers.AnalysisResultController.analysisResultRepository" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.FillAnalysisResultFields%28System.Collections.Generic.List%7BSurvey.ServiceDefaults.Dtos.SurveyResponseDto%7D%2CSurvey.ServiceDefaults.Models.AnalysisResultModel%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.CalculateInterestLevel%28System.String%2CSystem.String%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.SubmitSurvey%28System.Text.Json.JsonElement%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.CalculateInterestLevel%28System.String%2CSystem.String%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.SubmitSurvey%28System.Text.Json.JsonElement%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.PostFreeForm%28System.Text.Json.JsonElement%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.FillAnalysisResultFields%28System.Collections.Generic.List%7BSurvey.ServiceDefaults.Dtos.SurveyResponseDto%7D%2CSurvey.ServiceDefaults.Models.AnalysisResultModel%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.SubmitSurvey%28System.Text.Json.JsonElement%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.PostFreeForm%28System.Text.Json.JsonElement%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.SubmitSurvey%28System.Text.Json.JsonElement%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.GetSurveys" />
+    <RecentMethod id="98b0fee2-9219-5df1-924c-d0e342ec1cbc%28Survey.ServiceDefaults%29-46392546%5Bnet9.0%5D/P%3ASurvey.ServiceDefaults.Models.AnalysisResultModel.Text" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.PostFreeForm%28System.Text.Json.JsonElement%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Services.AiAgentService.AnalyzeSurvey%28System.String%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.FillAnalysisResultFields%28System.Collections.Generic.List%7BSurvey.ServiceDefaults.Dtos.SurveyResponseDto%7D%2CSurvey.ServiceDefaults.Models.AnalysisResultModel%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.SubmitSurvey%28System.Text.Json.JsonElement%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.FillAnalysisResultFields%28System.Collections.Generic.List%7BSurvey.ServiceDefaults.Dtos.SurveyResponseDto%7D%2CSurvey.ServiceDefaults.Models.AnalysisResultModel%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.CalculateInterestLevel%28System.String%2CSystem.String%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.SubmitSurvey%28System.Text.Json.JsonElement%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.CalculateInterestLevel%28System.String%2CSystem.String%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.FillAnalysisResultFields%28System.Collections.Generic.List%7BSurvey.ServiceDefaults.Dtos.SurveyResponseDto%7D%2CSurvey.ServiceDefaults.Models.AnalysisResultModel%29" />
+    <RecentMethod id="d4f30917-edea-a53c-1bfe-72d8b86a57da%28Survey.Api%29-E4BC11D9%5Bnet9.0%5D/M%3ASurvey.Api.Controllers.SurveyController.SubmitSurvey%28System.Text.Json.JsonElement%29" />
   </RecentlyViewedMethods>
 </RecentlyViewedMethods>

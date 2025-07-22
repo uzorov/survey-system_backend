@@ -1,0 +1,13 @@
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\bin\Debug\net9.0\Survey.ServiceDefaults.deps.json
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\bin\Debug\net9.0\Survey.ServiceDefaults.dll
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\bin\Debug\net9.0\Survey.ServiceDefaults.pdb
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\obj\Debug\net9.0\Survey.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\obj\Debug\net9.0\Survey.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\obj\Debug\net9.0\Survey.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\obj\Debug\net9.0\Survey.ServiceDefaults.AssemblyInfo.cs
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\obj\Debug\net9.0\Survey.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\obj\Debug\net9.0\Survey.ServiceDefaults.sourcelink.json
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\obj\Debug\net9.0\Survey.ServiceDefaults.dll
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\obj\Debug\net9.0\refint\Survey.ServiceDefaults.dll
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\obj\Debug\net9.0\Survey.ServiceDefaults.pdb
+C:\Users\FIREWORKS\Desktop\mnpk_2025\Survey\Survey.ServiceDefaults\obj\Debug\net9.0\ref\Survey.ServiceDefaults.dll

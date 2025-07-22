@@ -26,7 +26,7 @@ namespace Survey.ServiceDefaults.Models
         /// <summary>
         ///     Пользователь
         /// </summary>
-        public UserModel User { get; set; }
+        public ContactModel Contact { get; set; }
 
         /// <summary>
         ///     Время запроса
@@ -37,5 +37,7 @@ namespace Survey.ServiceDefaults.Models
         ///     Результат анализа
         /// </summary>
         public AnalysisResultModel AnalysisResult { get; set; }
+
+        public int AnalysisResultModelId { get; set; }
     }
 }

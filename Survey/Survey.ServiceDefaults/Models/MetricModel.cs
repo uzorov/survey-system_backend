@@ -17,7 +17,11 @@ public class MetricModel
 
     public string Name { get; set; }
 
-    public double Value { get; set; }
+    public double ValueDouble { get; set; }
+
+    public string ValueString { get; set; }
+
+    public string ValueDateTime { get; set; }
 
     public AnalysisResultModel AnalysisResult { get; set; }
 
