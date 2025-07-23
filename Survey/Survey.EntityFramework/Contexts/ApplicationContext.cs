@@ -1,8 +1,7 @@
-// <file>
-//     <project="Survey.EntityFramework">
-//     <author>"FIREWORKS"</author>
-//     <date>"21/07/2025 12:34"</date>
-// </file>
+
+using Microsoft.Extensions.Logging; 
+using System;                      
+
 
 namespace Survey.EntityFramework.Contexts
 {
@@ -23,12 +22,29 @@ namespace Survey.EntityFramework.Contexts
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseNpgsql(Addresses.POSTGRES_ADDRESS).UseLowerCaseNamingConvention();
-            }
-        }
+{
+    if (!optionsBuilder.IsConfigured)
+    {
+        var loggerFactory = LoggerFactory.Create(builder => builder.AddConsole());
+
+        optionsBuilder
+            .UseNpgsql(
+                Addresses.POSTGRES_ADDRESS,
+                npgsqlOptions =>
+                {
+                    npgsqlOptions.EnableRetryOnFailure(
+                        maxRetryCount: 5,
+                        maxRetryDelay: TimeSpan.FromSeconds(10),
+                        errorCodesToAdd: null
+                    );
+                })
+            .UseLoggerFactory(loggerFactory)
+            .EnableSensitiveDataLogging()
+            .UseLowerCaseNamingConvention();
+    }
+}
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

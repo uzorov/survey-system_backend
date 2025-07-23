@@ -212,19 +212,10 @@ namespace Survey.Api.Controllers
                     _volumeTons = _response.Answer;
                     analysisResult.VolumeTons = _response.Answer;
                 }
-                else if (_response.Id == ResponseKeys.INTEREST_LEVEL)
-                {
-                    if (_response.IsOther)
-                    {
-                        var _analyzedValue = this.aiAgentService.AnalyzeParameter(ResponseKeys.INTEREST_LEVEL, _response.Answer);
-                        analysisResult.InterestLevel = _analyzedValue;
 
-                        continue;
-                    }
-
-                    analysisResult.InterestLevel = this.CalculateInterestLevel(_timeline, _volumeTons);
+                
                 }
-            }
+            analysisResult.InterestLevel = this.CalculateInterestLevel(_timeline, _volumeTons);
         }
 
         private string CalculateInterestLevel(string timeline, string volumeTons)
@@ -233,7 +224,7 @@ namespace Survey.Api.Controllers
             {
                 return InterestLevel.Hot.ToString();
             }
-            if (timeline == "Более месяца" && volumeTons == "До 100 т.")
+            if (timeline == "От месяца" && volumeTons == "До 100 т.")
             {
                 return InterestLevel.Warm.ToString();
             }
@@ -241,7 +232,7 @@ namespace Survey.Api.Controllers
             {
                 return InterestLevel.Warm.ToString();
             }
-            if (timeline == "Более месяца" && volumeTons == "От 100 т.")
+            if (timeline == "От месяца" && volumeTons == "От 100 т.")
             {
                 return InterestLevel.Cold.ToString();
             }

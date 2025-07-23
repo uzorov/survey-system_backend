@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  survey-back:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: uzorovkirill/survey-back-image:latest
+    environment:
+      - REST_API_AI_AGENT_ANALYZE_FULL_ADDRESS=http://ai-analyzer:8000/analyze
+      - REST_API_AI_AGENT_ANALYZE_PARAMETER_ADDRESS=http://ai-analyzer:8000/analyze_param?param_code=
+      - POSTGRES_ADDRESS=Host=quest-postgres;Port=5432;Database=quest;Username=postgres;Password=quest-system;Timeout=10;CommandTimeout=30;Keepalive=1
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "17300:8080"
+
+
+

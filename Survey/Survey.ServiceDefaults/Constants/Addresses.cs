@@ -1,14 +1,19 @@
-// <file>
-//     <project="Survey.ServiceDefaults">
-//     <author>"FIREWORKS"</author>
-//     <date>"22/07/2025 9:07"</date>
-// </file>
+using System;
 
 namespace Survey.ServiceDefaults.Constants;
 
-public class Addresses
+public static class Addresses
 {
-    public const string REST_API_AI_AGENT_ANALYZE_FULL_ADDRESS = "http://87.242.86.68:17304/analyze";
-    public const string REST_API_AI_AGENT_ANALYZE_PARAMETER_ADDRESS = "http://87.242.86.68:17304/analyze_param?param_code=";
-    public const string POSTGRES_ADDRESS = "Host=87.242.86.68;Port=17300;Database=quest;Username=postgres;Password=quest-system";
+    public static readonly string REST_API_AI_AGENT_ANALYZE_FULL_ADDRESS =
+        Environment.GetEnvironmentVariable("REST_API_AI_AGENT_ANALYZE_FULL_ADDRESS") ??
+        "http://localhost:5000/analyze"; // fallback по умолчанию
+
+    public static readonly string REST_API_AI_AGENT_ANALYZE_PARAMETER_ADDRESS =
+        Environment.GetEnvironmentVariable("REST_API_AI_AGENT_ANALYZE_PARAMETER_ADDRESS") ??
+        "http://localhost:5000/analyze_param?param_code=";
+
+    public static readonly string POSTGRES_ADDRESS =
+        Environment.GetEnvironmentVariable("POSTGRES_ADDRESS") ??
+        "Host=5.129.192.253;Port=17300;Database=quest;Username=postgres;Password=quest-system";
 }
+// 

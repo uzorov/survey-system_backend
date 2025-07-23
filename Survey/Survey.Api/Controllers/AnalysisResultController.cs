@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Survey.ServiceDefaults.Dtos;
+using System.Linq;
 
 namespace Survey.Api.Controllers
 {
@@ -25,7 +26,26 @@ namespace Survey.Api.Controllers
         {
             var _analysisResults = analysisResultRepository.GetAll();
 
-            var _jsonFormattedAnalysis = this.jsonSerializer.Serialize(_analysisResults);
+            var _result = _analysisResults.Select(x => new {
+                x.Id,
+                TypeOfPipe = string.IsNullOrEmpty(x.TypeOfPipe) ? x.TypeOfPipe : char.ToUpper(x.TypeOfPipe[0]) + x.TypeOfPipe.Substring(1),
+                x.DiameterOfPipe,
+                x.PipeWallThickness,
+                x.VolumeTons,
+                x.Timeline,
+                InterestLevel = x.InterestLevel?.ToLower() switch
+                {
+                    "hot" => "Горячий",
+                    "warm" => "Тёплый",
+                    "cold" => "Холодный",
+                    _ => x.InterestLevel
+                },
+                x.Text,
+                x.Query,
+                x.Contact
+            });
+
+            var _jsonFormattedAnalysis = this.jsonSerializer.Serialize(_result);
 
             return this.Ok(_jsonFormattedAnalysis);
         }

@@ -9,6 +9,7 @@ using Survey.EntityFramework.Contexts;
 
 //using Survey.EntityFramework.Extensions;
 using Survey.ServiceDefaults.Models;
+using Microsoft.Extensions.Hosting;
 
 var _builder = WebApplication.CreateBuilder(args);
 
@@ -32,10 +33,32 @@ _builder.Services.AddScoped(typeof(IRepository<QuestionModel>), typeof(QuestionR
 _builder.Services.AddScoped(typeof(ISurveyRepository), typeof(SurveyRepository));
 _builder.Services.AddScoped(typeof(IRepository<ContactModel>), typeof(UserRepository));
 
+// Добавление Swagger
+_builder.Services.AddEndpointsApiExplorer();
+_builder.Services.AddSwaggerGen();
+
+_builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 var _app = _builder.Build();
 
+// Включение Swagger только в режиме разработки
+if (_app.Environment.IsDevelopment())
+{
+    _app.UseSwagger();
+    _app.UseSwaggerUI();
+}
 
 _app.UseHttpsRedirection();
+
+_app.UseCors();
 
 _app.UseAuthorization();
 
