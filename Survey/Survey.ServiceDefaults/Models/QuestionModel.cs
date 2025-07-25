@@ -1,6 +1,6 @@
 // <file>
 //     <project="QuestionModel.Api">
-//     <author>"FIREWORKS"</author>
+//     <author>"Кольчиков Евгений Олегович"</author>
 //     <date>"21/07/2025 12:14"</date>
 // </file>
 

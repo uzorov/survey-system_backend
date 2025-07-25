@@ -1,6 +1,6 @@
 // <file>
 //     <project="Survey.Api">
-//     <author>"FIREWORKS"</author>
+//     <author>"Кольчиков Евгений Олегович"</author>
 //     <date>"21/07/2025 13:35"</date>
 // </file>
 

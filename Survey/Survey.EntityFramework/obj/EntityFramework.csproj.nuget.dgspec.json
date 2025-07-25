@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FIREWORKS\\Desktop\\Survey\\EntityFramework\\EntityFramework.csproj": {}
+    "C:\\Users\\Кольчиков Евгений Олегович\\Desktop\\Survey\\EntityFramework\\EntityFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FIREWORKS\\Desktop\\Survey\\EntityFramework\\EntityFramework.csproj": {
+    "C:\\Users\\Кольчиков Евгений Олегович\\Desktop\\Survey\\EntityFramework\\EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FIREWORKS\\Desktop\\Survey\\EntityFramework\\EntityFramework.csproj",
+        "projectUniqueName": "C:\\Users\\Кольчиков Евгений Олегович\\Desktop\\Survey\\EntityFramework\\EntityFramework.csproj",
         "projectName": "EntityFramework",
-        "projectPath": "C:\\Users\\FIREWORKS\\Desktop\\Survey\\EntityFramework\\EntityFramework.csproj",
-        "packagesPath": "C:\\Users\\FIREWORKS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FIREWORKS\\Desktop\\Survey\\EntityFramework\\obj\\",
+        "projectPath": "C:\\Users\\Кольчиков Евгений Олегович\\Desktop\\Survey\\EntityFramework\\EntityFramework.csproj",
+        "packagesPath": "C:\\Users\\Кольчиков Евгений Олегович\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Кольчиков Евгений Олегович\\Desktop\\Survey\\EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\FIREWORKS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Кольчиков Евгений Олегович\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

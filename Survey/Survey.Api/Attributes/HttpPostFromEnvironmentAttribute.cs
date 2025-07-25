@@ -1,6 +1,6 @@
 // <file>
 //     <project="mnpk_2025">
-//     <author>"FIREWORKS"</author>
+//     <author>"Кольчиков Евгений Олегович"</author>
 //     <date>"21/07/2025 11:48"</date>
 // </file>
 
